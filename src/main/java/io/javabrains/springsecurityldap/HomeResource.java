@@ -8,6 +8,6 @@ public class HomeResource {
 
     @GetMapping("/")
     public String index(){
-        return "Home Page";
+        return "New Home Page";
     }
 }
