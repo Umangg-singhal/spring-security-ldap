@@ -9,6 +9,7 @@ public class HomeResource {
     @GetMapping("/")
     public String index(){
         System.out.println("I am using Jenkins");
+        System.out.println("Another changes in feature branch");
         return "New Home Page";
     }
 }
